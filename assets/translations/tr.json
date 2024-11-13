@@ -1,3 +1,10 @@
 {
-    "helloWord": "Merhaba Dünya!"
+    "helloWord": "Merhaba Dünya!",
+    "firebaseAuth": {
+        "weekPassword": "Girilen parola çok zayıf!",
+        "alreadyExist": "Bu e-posta ile bir hesap zaten mevcut!",
+        "unExpectedError": "Beklenmeyen bir hata oluştu!",
+        "userNotFound": "Kullanıcı bulunamadı!",
+        "wrongPassword": "Hatalı şifre girdiniz!"
+    }
 }

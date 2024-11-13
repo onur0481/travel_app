@@ -1,4 +1,5 @@
 import 'package:go_router/go_router.dart';
+import 'package:travel_app/app/utilities/constant/app_routes_constant.dart';
 import 'package:travel_app/services/app/app_routes.dart';
 
 class AppNavigationService {
@@ -6,7 +7,7 @@ class AppNavigationService {
   AppNavigationService() {
     _router = GoRouter(
       routes: appRoutes,
-      initialLocation: '/dashboard',
+      initialLocation: AppRoutesConstant.dashboard,
     );
   }
 
